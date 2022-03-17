@@ -24,6 +24,12 @@
     .breakTop {
       margin: 5em 0;
     }
+    #aas {
+      display: block;
+    }
+    #aasSmall {
+      display: none;
+    }
 
     /* FOR SMALL SCREENS */
     @media (max-width:1030px){
@@ -31,9 +37,15 @@
         max-width: 90%;
         margin: -1em auto;
       }
-      #aas, #footer, #all {
+      #aasSmall, #footer, #all {
         max-width: 100%;
         width: 100%;
+      }
+      #aas {
+        display: none;
+      }
+      #aasSmall {
+        display: block;
       }
       .break {
         margin: 10em 0;
@@ -58,6 +70,7 @@
 <div class="breakTop"></div>
 
     <img id="aas" class="one" width="2100" src="aas1.png">
+    <img id="aasSmall" class="one" src="aasSmall1.png">
 
 <div class="break"></div>
 
